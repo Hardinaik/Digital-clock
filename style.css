@@ -1,0 +1,27 @@
+body{
+    background-image: url("city.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#box{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh; 
+}
+
+#clock{
+  font-family: monospace;
+  font-size: 7em;
+  font-weight: bold;
+  color: white;
+  backdrop-filter: blur(5px);
+  background-color: rgba(158, 153, 153, 0.076);
+  width:100%;
+  text-align: center;
+}
+
+
